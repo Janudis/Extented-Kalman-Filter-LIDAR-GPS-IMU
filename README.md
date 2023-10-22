@@ -53,4 +53,4 @@ Latitude (in UTM 35)
 Longitude (in UTM 35)
 
 # Adjusting Parameters
-The code provides options for adjusting the standard deviation of the observation noise for x and y coordinates (xy_obs_noise_std), the yaw rate (yaw_rate_noise_std), and the forward velocity (forward_velocity_noise_std). These parameters can be modified in the code to suit your specific scenario and sensor characteristics.
+The code provides options for adjusting the standard deviation of the observation noise for x and y coordinates from GPS (xy_obs_noise_std), from LiDAR (lidar_noise), the yaw rate (yaw_rate_noise_std), and the forward velocity (forward_velocity_noise_std). These parameters can be modified in the code to suit your specific scenario and sensor characteristics.
