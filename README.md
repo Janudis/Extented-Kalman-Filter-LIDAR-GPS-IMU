@@ -13,7 +13,7 @@ This code implements an Extended Kalman Filter (EKF) for fusing Global Positioni
 
 # Dependencies
 1) C++ compiler supporting C++11 or higher
-2)  Eigen library is not needed
+2) Eigen library is not needed
 
 # Code Structure
 [Similar to ](https://github.com/Janudis/Extended-Kalman-Filter-GPS_IMU/tree/master) with some additions like:
@@ -23,8 +23,8 @@ This code implements an Extended Kalman Filter (EKF) for fusing Global Positioni
 2) DBSCAN_clustering : do DBSCAN clustering and return the closest's cluster centroid
 
 ## src/   
-4) gps_geodetic_utm : GPS data from geodetic to UTM coordinate system
-5) lidar_gt_geodetic_utm : LiDAR groundtruth landmarks from geodetic to UTM coordinate system
+4) gps_geodetic_utm : transform GPS data from geodetic to UTM coordinate system
+5) lidar_gt_geodetic_utm : transform LiDAR groundtruth landmarks from geodetic to UTM coordinate system
 6) data_preprocessing : association of observed landmarks with the ground-truth landmarks (used in main)
 
 # Input Data Format
